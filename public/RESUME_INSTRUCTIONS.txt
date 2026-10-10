@@ -1,0 +1,4 @@
+Drop your PDF resume here as 'Arjun_S_Resume.pdf'.
+Once placed, open 'src/data/portfolioData.ts' and change:
+  resumeAvailable: true
+This will make your resume instantly downloadable from the website.

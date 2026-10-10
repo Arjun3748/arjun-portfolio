@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B1325" />
+      <stop offset="50%" stop-color="#080D19" />
+      <stop offset="100%" stop-color="#04060C" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#818CF8" />
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="400" rx="40" fill="url(#bgGrad)" stroke="#1E293B" stroke-width="2"/>
+  <circle cx="200" cy="200" r="160" fill="url(#glow)"/>
+
+  <!-- Network Connection Rings -->
+  <circle cx="200" cy="200" r="130" fill="none" stroke="#38BDF8" stroke-width="1.5" stroke-dasharray="6 6" opacity="0.4"/>
+  <circle cx="200" cy="200" r="95" fill="none" stroke="#818CF8" stroke-width="1" opacity="0.5"/>
+
+  <!-- Tech Monogram Box -->
+  <rect x="130" y="130" width="140" height="140" rx="28" fill="#0D162A" stroke="url(#accentGrad)" stroke-width="2" filter="drop-shadow(0 0 15px rgba(56,189,248,0.3))"/>
+
+  <!-- Monogram Initials -->
+  <text x="200" y="215" font-family="'Space Grotesk', system-ui, sans-serif" font-size="64" font-weight="800" fill="url(#accentGrad)" text-anchor="middle" letter-spacing="-2">AS</text>
+
+  <!-- Tagline Badge -->
+  <rect x="110" y="295" width="180" height="32" rx="16" fill="#0F172A" stroke="rgba(56,189,248,0.4)" stroke-width="1"/>
+  <text x="200" y="316" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="600" fill="#38BDF8" text-anchor="middle" letter-spacing="1">ARJUN S • 2027</text>
+</svg>
